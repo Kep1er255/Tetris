@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テトリス</title>
+  <link rel="stylesheet" href="https://Roulette-of-fate.github.io/Tetris/stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id="game-canvas" width="300" height="600"></canvas>
+        <div class="controls">
+            <button id="start-btn">ゲーム開始</button>
+            <button id="left-btn">左</button>
+            <button id="right-btn">右</button>
+            <button id="down-btn">下</button>
+            <button id="rotate-btn">回転</button>
+        </div>
+        <div class="info">
+            <div id="score">スコア: 0</div>
+            <div id="ranking">ランキング</div>
+            <div>1位RUI:200</div>
+               <div>2位:RUI:100</div>
+                          <div>3位RUI:100</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
